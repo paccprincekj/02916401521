@@ -1,0 +1,14 @@
+Python Spring Boot Backend:
+
+Develop the backend APIs as described in question 1 using Spring Boot framework in Java.
+Node.js Backend:
+
+Create endpoints in your Node.js server to connect with the Python Spring Boot backend APIs.
+React Frontend:
+
+Develop a responsive React frontend web application with two pages: one for displaying all products and another for a specific product.
+Implement detailed information display for each product: Name, Company, Category, Price, Rating, Discount, and Availability.
+Add filtering options for category, e-commerce company, rating, price range, and availability. Implement sorting by price, rating, and discount with pagination.
+Integrate the frontend with the backend APIs developed in Python Spring Boot and Node.js to fetch product data.
+Use a CSS library like Material UI, Tailwind CSS, or Bootstrap for styling the application to enhance user experience.
+Display product images using a random assortment for both pages.
