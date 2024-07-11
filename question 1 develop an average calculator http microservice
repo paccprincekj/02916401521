@@ -1,0 +1,29 @@
+first 
+for implementing question 1 we will 
+Utilize the APIs of five e-commerce companies to retrieve product data.
+Create a GET REST API endpoint "/categories/:categoryname/products" to showcase the top 'n' products within a specified category and price range.
+Allow users to specify 'n' as a query parameter and implement pagination if 'n' exceeds 10.
+Generate a custom unique identifier for each product in the response.
+Allow users to pass additional query parameters to sort results based on rating, price, company, or discount in ascending or descending order.
+Implement a GET REST API endpoint "/categories/:categoryname/products/:productid" to retrieve details of a specific product matching the provided ID.
+Ensure timely, performance, and accurate responses to users while minimizing costs associated with API calls to the Test Server.
+Accommodate changes in sorting order or product data made by the e-commerce companies without prior notice.
+we are registering with 
+access code - mEAXRX
+then we will registered with our college roll no- 02916401521
+import requests
+
+url = "http://20.244.56.144/test/register"
+data = {
+    "companyName": "goMart",
+    "ownerName": "Rahul",
+    "rollNo": "1",
+    "ownerEmail": "rahul@abc.edu",
+    "accessCode": "mEAXRX"
+}
+
+response = requests.post(url, json=data)
+
+print("Status Code:", response.status_code)
+print("Response:", response.json())
+
